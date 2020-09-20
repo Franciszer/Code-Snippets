@@ -26,11 +26,13 @@
 			"# include <iomanip>",
 			"# include <string>",
 			"",
-			"class ClassName$0",
-			"{",
+			"class ClassName$0 {",
 			"\tpublic:",
 			"\t\tClassName(void);",
+			"\t\tClassName(ClassName const &src);",
 			"\t\t~ClassName(void);",
+			"",
+			"\t\tClassName   &operator=(ClassName const &src);",
 			"",
 			"\tprivate:",
 			"\t\t",
@@ -38,6 +40,6 @@
 			"",
 			"#endif",
 			""
-		]
+			]
 	}
 }

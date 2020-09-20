@@ -15,19 +15,25 @@
 		"cpp class methods": {
 			"prefix": "cpp_class_methods",
 			"body": [
-			"#include \"$0ClassName.hpp\"",
-			"",
-			"ClassName::ClassName(void)",
-			"{",
-			"\tstd::cout << \"ClassName Creator Called\" << std::endl;",
-			"}",
-			"",
-			"ClassName::~ClassName(void)",
-			"{",
-			"\tstd::cout << \"ClassName Destructor Called\" << std::endl;",
-			"}",
-			""
-			]
+				"#include \"ClassName$0.hpp\"",
+				"",
+				"ClassName::ClassName(void) {",
+				"\treturn ;",
+				"}",
+				"",
+				"ClassName::ClassName(ClassName const &src) {",
+				"\treturn ;",
+				"}",
+				"",
+				"ClassName::~ClassName(void) {",
+				"\treturn ;",
+				"}",
+				"",
+				"ClassName\t&ClassName::operator=(ClassName const &src) {",
+				"",
+				"}",
+				""
+				]
 		},
 		"main cpp": {
 			"prefix": "main_cpp",
