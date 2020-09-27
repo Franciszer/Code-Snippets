@@ -30,7 +30,7 @@
 			"\tpublic:",
 			"\t\tClassName(void);",
 			"\t\tClassName(ClassName const &src);",
-			"\t\t~ClassName(void);",
+			"\t\tvirtual ~ClassName(void);",
 			"",
 			"\t\tClassName   &operator=(ClassName const &src);",
 			"",
